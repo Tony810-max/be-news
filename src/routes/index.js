@@ -1,4 +1,4 @@
-const userRoute = require("./userRoute");
+const userRoute = require("./authRoute");
 
 const route = (app) => {
   app.use("/api", userRoute);
